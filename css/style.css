@@ -68,6 +68,51 @@ footer {
 	le tue regole, se necessario. */
 }
 
+.low-btn-container{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 1000;
+}
+.tt-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+.icon-desc{
+    font-size: 11px;
+    margin-top: 3px;
+}
+.low-btn{
+    font-size: 22px;
+}
+.tt-icon:hover{
+	opacity: 0.8;
+}
+/* Button tiktok */
+.center-low-btn{
+    background: white;
+    color: black;
+    width: 45px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+	border-left: solid 3px cyan;
+	border-right: solid 3px purple;
+}
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
@@ -117,6 +162,7 @@ da rimuovere una volta concluso
 	min-height: 100px;
 	border: 2px dashed #fff;
 }
+/* ----------
 
 .debug .sidebar {
 	min-width: 80px;
@@ -129,4 +175,4 @@ da rimuovere una volta concluso
 	border: 2px dashed #fff;
 }
 
-/* --------------------- */
+----------- */
