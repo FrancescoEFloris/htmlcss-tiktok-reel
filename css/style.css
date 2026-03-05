@@ -80,24 +80,34 @@ footer {
 
 
 }
+.interact-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .logo-bool {
 	width: 45px;
-	border-radius: 50%;
+	aspect-ratio: 1;
+  	border-radius: 50%;
 	border: solid white 3px;
-	margin-bottom: 20px;
-	display: inline-block;
+  	margin-bottom: 20px;
 }
 .mid-btn-container {
-	color: white;
-	font-size: 30px;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
+  	flex-direction: column;
+  	gap: 22px;
 }
-.mid-btn-stat{
-	
+.sidebar-icon {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	color: white;
 }
+.mid-btn{
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
