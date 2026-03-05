@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -31,18 +32,20 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-	
+
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 
 	display: flex;
 
 }
+
 .txt-btn {
 	display: inline-block;
 	padding: 4px;
 	color: white;
 }
+
 .txt-btn:hover {
 	color: grey;
 }
@@ -68,47 +71,49 @@ footer {
 	le tue regole, se necessario. */
 }
 
-.low-btn-container{
-    width: 100%;
-    background: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.low-btn-container {
+	width: 100%;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1000;
+}
 
-    z-index: 1000;
+.tt-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
 }
-.tt-icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    color: white;
-    font-size: 20px;
+.icon-desc {
+	font-size: 11px;
+	margin-top: 3px;
+}
 
-    cursor: pointer;
+.low-btn {
+	font-size: 22px;
 }
-.icon-desc{
-    font-size: 11px;
-    margin-top: 3px;
-}
-.low-btn{
-    font-size: 22px;
-}
-.tt-icon:hover{
+
+.tt-icon:hover {
 	opacity: 0.8;
 }
+
 /* Button tiktok */
-.center-low-btn{
-    background: white;
-    color: black;
-    width: 45px;
-    height: 30px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
+.center-low-btn {
+	background: white;
+	color: black;
+	width: 45px;
+	height: 30px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
 	border-left: solid 3px cyan;
 	border-right: solid 3px purple;
 }
@@ -125,32 +130,37 @@ footer {
 
 
 }
-.interact-icons{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.interact-icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
 .logo-bool {
 	width: 45px;
 	aspect-ratio: 1;
-  	border-radius: 50%;
+	border-radius: 50%;
 	border: solid white 3px;
-  	margin-bottom: 20px;
+	margin-bottom: 20px;
 }
+
 .mid-btn-container {
 	display: flex;
-  	flex-direction: column;
-  	gap: 22px;
+	flex-direction: column;
+	gap: 22px;
 }
+
 .sidebar-icon {
 	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	color: white;
+	flex-direction: column;
+	align-items: center;
+	color: white;
 }
-.mid-btn{
-  font-size: 30px;
-  margin-bottom: 4px;
+
+.mid-btn {
+	font-size: 30px;
+	margin-bottom: 4px;
 }
 
 
@@ -162,6 +172,7 @@ da rimuovere una volta concluso
 	min-height: 100px;
 	border: 2px dashed #fff;
 }
+
 /* ----------
 
 .debug .sidebar {
