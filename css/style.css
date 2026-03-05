@@ -47,7 +47,7 @@ video {
 	color: grey;
 }
 
-.bi {
+.top-btn {
 	font-size: 20px;
 	color: white;
 	padding: 20px;
@@ -77,6 +77,26 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+
+}
+.logo-bool {
+	width: 45px;
+	border-radius: 50%;
+	border: solid white 3px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.mid-btn-container {
+	color: white;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.mid-btn-stat{
+	
 }
 
 /* ---------------------
