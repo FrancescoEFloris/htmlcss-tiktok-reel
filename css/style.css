@@ -163,7 +163,14 @@ footer {
 	font-size: 30px;
 	margin-bottom: 4px;
 }
-
+.desc-container {
+	font-size: 16px;
+	padding: 10px 20px;
+}
+.desc-title {
+	padding-bottom: 10px;
+	font-weight: bold;
+}
 
 /* ---------------------
 Regole per evidenziare i blocchi 
